@@ -33,6 +33,7 @@ export default function Dashboard() {
       setIsLoadingData(false);
     }
   };
+  console.log(user)
 
   useEffect(() => {
     if (!isLoading && !user) {
